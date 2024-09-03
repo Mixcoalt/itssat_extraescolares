@@ -1,0 +1,89 @@
+/* Estilo base para la tabla */
+
+.tabla-catalogo {
+  width: 90%; /* La tabla ocupa el 90% de la pantalla */
+  max-width: 100%;
+  border-collapse: collapse;
+  margin: 0 auto; /* La tabla está centrada */
+  overflow-x: auto; /* Permitir desplazamiento horizontal en caso de contenido ancho */
+}
+
+/* Estilo para las celdas del encabezado */
+.tabla-catalogo th {
+  background-color: #00740a; /* Color de fondo oscuro para el encabezado */
+  color: white; /* Color de texto blanco para el encabezado */
+  padding: 10px; /* Espaciado interno en las celdas del encabezado */
+  text-align: center; /* Texto centrado en el encabezado */
+  white-space: nowrap; /* Evitar salto de línea en el texto del encabezado */
+}
+
+/* Estilo para las celdas de datos */
+.tabla-catalogo td, .tabla-catalogo th {
+  border: 1px solid #dddddd; /* Borde delgado para las celdas */
+  padding: 8px; /* Espaciado interno en las celdas */
+  text-align: center; /* Texto centrado en las celdas */
+  white-space: normal; /* Permitir salto de línea en el texto de las celdas */
+  word-wrap: break-word; /* Dividir palabras largas en varias líneas */
+}
+
+/* Estilo para filas alternas */
+.tabla-catalogo tr:nth-child(even) {
+  background-color: #f2f2f2; /* Color de fondo para filas pares */
+}
+
+
+/* Estilo para el contenedor de los botones */
+.button-container {
+  width: 90%; /* Ancho igual al de la tabla */
+  max-width: 100%;
+  margin: 0 auto; /* Centrar el contenedor */
+  display: flex;
+  justify-content: space-between; /* Espaciado uniforme entre los botones */
+  align-items: center; /* Alinear verticalmente los botones */
+  margin-bottom: 10px; /* Espacio inferior */
+}
+
+/* Estilo para los botones */
+.custom-button {
+  padding: 10px 20px;
+  background-color:#00740a;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.custom-button:hover {
+  background-color:#014106;
+}
+
+#catalogo {
+  position: relative;
+  min-height: 300px; /* Ajusta la altura mínima según sea necesario */
+}
+
+#calificaciones{
+  position: relative;
+  min-height: 300px; /* Ajusta la altura mínima según sea necesario */
+}
+
+/*Loader*/
+.loader {
+  border: 16px solid #f3f3f3;
+  border-radius: 50%;
+  border-top: 16px solid #00740a;
+  width: 120px;
+  height: 120px;
+  animation: spin 2s linear infinite;
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  z-index: 9999; /* Para asegurarse de que el loader esté encima de otros elementos */
+}
+
+@keyframes spin {
+  0% { transform: rotate(0deg); }
+  100% { transform: rotate(360deg); }
+}
+

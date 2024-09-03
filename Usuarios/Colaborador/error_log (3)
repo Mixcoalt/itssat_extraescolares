@@ -1,0 +1,20 @@
+[24-Mar-2023 11:00:24 America/Mexico_City] PHP Warning:  mysqli_query(): (HY000/2006): MySQL server has gone away in /home/itssatex/public_html/Usuarios/Colaborador/reportecolab.php on line 219
+[24-Mar-2023 11:00:24 America/Mexico_City] PHP Warning:  mysqli_fetch_array() expects parameter 1 to be mysqli_result, bool given in /home/itssatex/public_html/Usuarios/Colaborador/reportecolab.php on line 221
+[24-Mar-2023 11:00:24 America/Mexico_City] PHP Warning:  mysqli_free_result() expects parameter 1 to be mysqli_result, bool given in /home/itssatex/public_html/Usuarios/Colaborador/reportecolab.php on line 255
+[07-Jun-2023 14:08:48 America/Mexico_City] PHP Warning:  A non-numeric value encountered in /home/itssatex/public_html/Usuarios/Colaborador/editarCalificacion.php on line 195
+[07-Jun-2023 14:08:48 America/Mexico_City] PHP Warning:  A non-numeric value encountered in /home/itssatex/public_html/Usuarios/Colaborador/editarCalificacion.php on line 202
+[07-Jun-2023 14:11:57 America/Mexico_City] PHP Warning:  A non-numeric value encountered in /home/itssatex/public_html/Usuarios/Colaborador/editarCalificacion.php on line 195
+[07-Jun-2023 14:11:57 America/Mexico_City] PHP Warning:  A non-numeric value encountered in /home/itssatex/public_html/Usuarios/Colaborador/editarCalificacion.php on line 202
+[07-Jun-2023 14:52:58 America/Mexico_City] PHP Warning:  A non-numeric value encountered in /home/itssatex/public_html/Usuarios/Colaborador/editarCalificacion.php on line 195
+[07-Jun-2023 14:54:08 America/Mexico_City] PHP Warning:  A non-numeric value encountered in /home/itssatex/public_html/Usuarios/Colaborador/editarCalificacion.php on line 195
+[07-Jun-2023 14:56:24 America/Mexico_City] PHP Warning:  A non-numeric value encountered in /home/itssatex/public_html/Usuarios/Colaborador/editarCalificacion.php on line 195
+[07-Jun-2023 16:23:26 America/Mexico_City] PHP Notice:  Undefined variable: promedio in /home/itssatex/public_html/Usuarios/Colaborador/editarCalificacion.php on line 231
+[07-Jun-2023 21:05:17 America/Mexico_City] PHP Notice:  Undefined variable: promedio in /home/itssatex/public_html/Usuarios/Colaborador/editarCalificacion.php on line 231
+[07-Jun-2023 21:05:35 America/Mexico_City] PHP Notice:  Undefined variable: promedio in /home/itssatex/public_html/Usuarios/Colaborador/editarCalificacion.php on line 231
+[07-Jun-2023 21:05:48 America/Mexico_City] PHP Notice:  Undefined variable: promedio in /home/itssatex/public_html/Usuarios/Colaborador/editarCalificacion.php on line 231
+[07-Jun-2023 21:06:10 America/Mexico_City] PHP Notice:  Undefined variable: promedio in /home/itssatex/public_html/Usuarios/Colaborador/editarCalificacion.php on line 231
+[07-Jun-2023 21:06:28 America/Mexico_City] PHP Notice:  Undefined variable: promedio in /home/itssatex/public_html/Usuarios/Colaborador/editarCalificacion.php on line 231
+[08-Jun-2023 10:37:42 America/Mexico_City] PHP Warning:  A non-numeric value encountered in /home/itssatex/public_html/Usuarios/Colaborador/editarCalificacion.php on line 195
+[08-Jun-2023 10:37:42 America/Mexico_City] PHP Warning:  A non-numeric value encountered in /home/itssatex/public_html/Usuarios/Colaborador/editarCalificacion.php on line 202
+[08-Jun-2023 12:37:28 America/Mexico_City] PHP Warning:  A non-numeric value encountered in /home/itssatex/public_html/Usuarios/Colaborador/editarCalificacion.php on line 195
+[08-Jun-2023 12:37:28 America/Mexico_City] PHP Warning:  A non-numeric value encountered in /home/itssatex/public_html/Usuarios/Colaborador/editarCalificacion.php on line 202
